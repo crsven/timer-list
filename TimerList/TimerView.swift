@@ -12,7 +12,7 @@ struct TimerView: View {
     var timer = VisibleTimer()
 
     var body: some View {
-        Text("Time on screen: \(timer.elapsedTime)")
+        Text("Time on screen: \(timer.secondsElapsed)")
             .padding(.vertical, 30)
             .onGeometryChange(
                 for: Bool.self, of: isVisible(proxy:),

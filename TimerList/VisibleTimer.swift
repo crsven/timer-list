@@ -9,19 +9,19 @@ import Foundation
 
 @Observable
 class VisibleTimer {
-    var elapsedTime: Double = 0
+    var secondsElapsed: Double = 0
     var timer: Timer?
     var lastStartTime: Date?
-    var lastElapsedTime: Double = 0
+    var secondsAtLastPause: Double = 0
     
     func resume() {
         if lastStartTime == nil {
             lastStartTime = Date.now
         }
-        lastElapsedTime = elapsedTime
+        secondsAtLastPause = secondsElapsed
         
         timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { _ in
-            self.elapsedTime = self.lastElapsedTime + Date.now.timeIntervalSince(self.lastStartTime!)
+            self.secondsElapsed = self.secondsAtLastPause + Date.now.timeIntervalSince(self.lastStartTime!)
         })
     }
     

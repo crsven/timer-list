@@ -30,10 +30,7 @@ struct TimerView: View {
     }
 
     private func updateTimer(isVisible: Bool) {
-        switch isVisible {
-        case true: timer.resume()
-        case false: timer.pause()
-        }
+        isVisible ? timer.resume() : timer.pause()
     }
 }
 

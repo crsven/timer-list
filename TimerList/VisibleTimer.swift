@@ -20,7 +20,9 @@ class VisibleTimer {
         }
         secondsAtLastPause = secondsElapsed
         
-        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { _ in
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { [weak self] _ in
+            guard let self else { return }
+            
             self.secondsElapsed = self.secondsAtLastPause + Date.now.timeIntervalSince(self.lastStartTime!)
         })
     }

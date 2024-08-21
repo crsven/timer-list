@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		645A6F0D2C75678F00C5BCC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 645A6EF42C75678D00C5BCC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 645A6EFB2C75678D00C5BCC8;
-			remoteInfo = TimerList;
-		};
-		645A6F172C75678F00C5BCC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 645A6EF42C75678D00C5BCC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 645A6EFB2C75678D00C5BCC8;
-			remoteInfo = TimerList;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		645A6EFC2C75678D00C5BCC8 /* TimerList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		645A6F0C2C75678F00C5BCC8 /* TimerListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		645A6F162C75678F00C5BCC8 /* TimerListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,20 +20,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		645A6EF92C75678D00C5BCC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645A6F092C75678F00C5BCC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645A6F132C75678F00C5BCC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				645A6EFC2C75678D00C5BCC8 /* TimerList.app */,
-				645A6F0C2C75678F00C5BCC8 /* TimerListTests.xctest */,
-				645A6F162C75678F00C5BCC8 /* TimerListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,46 +70,6 @@
 			productReference = 645A6EFC2C75678D00C5BCC8 /* TimerList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		645A6F0B2C75678F00C5BCC8 /* TimerListTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 645A6F232C75678F00C5BCC8 /* Build configuration list for PBXNativeTarget "TimerListTests" */;
-			buildPhases = (
-				645A6F082C75678F00C5BCC8 /* Sources */,
-				645A6F092C75678F00C5BCC8 /* Frameworks */,
-				645A6F0A2C75678F00C5BCC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				645A6F0E2C75678F00C5BCC8 /* PBXTargetDependency */,
-			);
-			name = TimerListTests;
-			packageProductDependencies = (
-			);
-			productName = TimerListTests;
-			productReference = 645A6F0C2C75678F00C5BCC8 /* TimerListTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		645A6F152C75678F00C5BCC8 /* TimerListUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 645A6F262C75678F00C5BCC8 /* Build configuration list for PBXNativeTarget "TimerListUITests" */;
-			buildPhases = (
-				645A6F122C75678F00C5BCC8 /* Sources */,
-				645A6F132C75678F00C5BCC8 /* Frameworks */,
-				645A6F142C75678F00C5BCC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				645A6F182C75678F00C5BCC8 /* PBXTargetDependency */,
-			);
-			name = TimerListUITests;
-			packageProductDependencies = (
-			);
-			productName = TimerListUITests;
-			productReference = 645A6F162C75678F00C5BCC8 /* TimerListUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,14 +82,6 @@
 				TargetAttributes = {
 					645A6EFB2C75678D00C5BCC8 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					645A6F0B2C75678F00C5BCC8 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 645A6EFB2C75678D00C5BCC8;
-					};
-					645A6F152C75678F00C5BCC8 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 645A6EFB2C75678D00C5BCC8;
 					};
 				};
 			};
@@ -183,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				645A6EFB2C75678D00C5BCC8 /* TimerList */,
-				645A6F0B2C75678F00C5BCC8 /* TimerListTests */,
-				645A6F152C75678F00C5BCC8 /* TimerListUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		645A6EFA2C75678D00C5BCC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645A6F0A2C75678F00C5BCC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645A6F142C75678F00C5BCC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		645A6F082C75678F00C5BCC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		645A6F122C75678F00C5BCC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		645A6F0E2C75678F00C5BCC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 645A6EFB2C75678D00C5BCC8 /* TimerList */;
-			targetProxy = 645A6F0D2C75678F00C5BCC8 /* PBXContainerItemProxy */;
-		};
-		645A6F182C75678F00C5BCC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 645A6EFB2C75678D00C5BCC8 /* TimerList */;
-			targetProxy = 645A6F172C75678F00C5BCC8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		645A6F1E2C75678F00C5BCC8 /* Debug */ = {
@@ -303,7 +177,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -360,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -428,74 +302,6 @@
 			};
 			name = Release;
 		};
-		645A6F242C75678F00C5BCC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = crsven.TimerListTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimerList";
-			};
-			name = Debug;
-		};
-		645A6F252C75678F00C5BCC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = crsven.TimerListTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimerList";
-			};
-			name = Release;
-		};
-		645A6F272C75678F00C5BCC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = crsven.TimerListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TimerList;
-			};
-			name = Debug;
-		};
-		645A6F282C75678F00C5BCC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = crsven.TimerListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TimerList;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,24 +319,6 @@
 			buildConfigurations = (
 				645A6F212C75678F00C5BCC8 /* Debug */,
 				645A6F222C75678F00C5BCC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		645A6F232C75678F00C5BCC8 /* Build configuration list for PBXNativeTarget "TimerListTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				645A6F242C75678F00C5BCC8 /* Debug */,
-				645A6F252C75678F00C5BCC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		645A6F262C75678F00C5BCC8 /* Build configuration list for PBXNativeTarget "TimerListUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				645A6F272C75678F00C5BCC8 /* Debug */,
-				645A6F282C75678F00C5BCC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
